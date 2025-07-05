@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 1em;
+}
+
+input {
+    padding: 0.5em;
+}
+
+button {
+    padding: 0.5em 1em;
+    margin-left: 0.5em;
+}
+
+#todo_list {
+    padding: 0;
+}
+
+#todo_list li {
+    background: #fff;
+    border: 1px solid #ddd;
+    list-style: none;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todo_list li button {
+    background: #ff6347;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.2em 0.5em;
+}
